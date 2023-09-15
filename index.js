@@ -11,10 +11,9 @@ function calculator() {
     let result = 0;
 
     if (!op) {
-        
         return `No operation provided...`;
+
     } else if (!nums.length) {
-        
         return `No numbers provided...`;
     }
 
@@ -32,7 +31,6 @@ function calculator() {
         return result;
         
     } else {
-        
         return `Invalid operation: ${op}`;
     }
 
