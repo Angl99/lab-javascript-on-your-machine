@@ -36,7 +36,6 @@ function calculator() {
         return `Invalid operation: ${op}`;
     }
 
-    
 }
 
 // Don't change anything below this line.
